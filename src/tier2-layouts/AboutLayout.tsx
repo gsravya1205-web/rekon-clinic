@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from "framer-motion";
 import { Award, HeartHandshake, Layers, Clock, Activity } from "lucide-react";
@@ -43,7 +43,7 @@ export default function About() {
             Who We Are
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-navy-800 dark:text-white mt-4 tracking-tight">
-            Anantapur&apos;s Trusted Destination for Orthopedic &amp; Multi-Speciality Care
+            Visakhapatnam&apos;s Trusted Destination for Orthopedic &amp; Joint Replacement Care
           </h2>
           <div className="h-1 w-20 bg-teal-500 mx-auto mt-4 rounded-full" />
         </motion.div>
@@ -60,13 +60,13 @@ export default function About() {
             className="lg:col-span-5 flex flex-col gap-6"
           >
             <h3 className="text-2xl font-bold text-navy-700 dark:text-zinc-100">
-              Established in 2021 with a Commitment to Quality Healing
+              Dedicated to Advanced Orthopedic & Joint Replacement Care
             </h3>
             <p className="text-gray-600 dark:text-zinc-300 leading-relaxed">
-              At Kumar's Ortho Clinic, we believe that health is the foundation of a joyful life. We opened our doors in 2021 in Vidyuth Nagar, Anantapur, to address the growing need for specialized orthopedic and trauma care alongside broad-scope multi-speciality treatment.
+              At Rekon Centre for Joint Replacement Surgery and Orthopedics, we believe that mobility and pain-free movement are the foundations of a healthy life. Located in Srinagar, Visakhapatnam, our center addresses specialized joint care, arthroplasty, and comprehensive orthopedic health.
             </p>
             <p className="text-gray-600 dark:text-zinc-300 leading-relaxed">
-              Led by veteran practitioners and supported by empathetic staff, we combine cutting-edge technology with affordable pricing models. Whether managing emergency complex fractures or chronic clinical disorders, our priority is always your swift recovery and comfort.
+              Led by Dr. B. V. R. N. Varma and supported by dedicated clinical staff, we combine disciplined clinical protocols with personalized patient attention. Whether evaluating knee and hip conditions or managing orthopedic trauma, our priority is always patient mobility, comfort, and safety.
             </p>
             
             {/* Accreditation Badge */}

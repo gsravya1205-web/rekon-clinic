@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -108,7 +108,7 @@ export default function AppointmentModal({ isOpen, onClose }: AppointmentModalPr
                 <Calendar className="h-5 w-5 text-teal-300 animate-float" />
                 <div>
                   <h3 className="text-lg font-bold tracking-tight">Schedule Consultation</h3>
-                  <p className="text-[10px] text-teal-100 uppercase tracking-widest font-semibold mt-0.5">Kumar's Ortho Clinic</p>
+                  <p className="text-[10px] text-teal-100 uppercase tracking-widest font-semibold mt-0.5">Rekon Centre</p>
                 </div>
               </div>
               <button

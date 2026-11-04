@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from "framer-motion";
 import { Phone, AlertCircle, MessageSquare } from "lucide-react";
@@ -31,24 +31,22 @@ export default function EmergencyCallout() {
             <motion.a
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.98 }}
-              href="tel:+919440275556"
+              href="tel:+919849146668"
               className="w-full sm:w-auto flex items-center justify-center gap-2.5 rounded-xl bg-red-600 px-8 py-4.5 text-base font-bold text-white shadow-xl shadow-red-600/20 hover:bg-red-700 transition-all"
             >
               <Phone className="h-5 w-5 stroke-[2.5]" />
-              <span>Call Emergency: +91 94402 75556</span>
+              <span>Call Helpline: +91 98491 46668</span>
             </motion.a>
 
-            {/* WhatsApp button */}
+            {/* Direct Consultation Call button */}
             <motion.a
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.98 }}
-              href="https://wa.me/919440275556?text=Emergency%20assistance%20needed"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full sm:w-auto flex items-center justify-center gap-2.5 rounded-xl bg-emerald-600 px-8 py-4.5 text-base font-bold text-white shadow-xl shadow-emerald-600/20 hover:bg-emerald-700 transition-all"
+              href="tel:+919849146668"
+              className="w-full sm:w-auto flex items-center justify-center gap-2.5 rounded-xl bg-blue-600 px-8 py-4.5 text-base font-bold text-white shadow-xl shadow-blue-600/20 hover:bg-blue-700 transition-all"
             >
-              <MessageSquare className="h-5 w-5 fill-white stroke-none" />
-              <span>WhatsApp Emergency</span>
+              <Phone className="h-5 w-5" />
+              <span>Rekon Centre Desk</span>
             </motion.a>
           </div>
         </div>

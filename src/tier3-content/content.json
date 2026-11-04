@@ -1,13 +1,13 @@
 {
   "layout": {
     "seo": {
-      "title": "Kumar's Ortho & Multi-Speciality Hospital",
-      "description": "Advanced orthopedic surgery, trauma care, and multi-speciality healthcare services in Anantapur."
+      "title": "Rekon Centre For Joint Replacement Surgery and Orthopedics | Dr. B.V.R.N. Varma | Visakhapatnam",
+      "description": "Rekon Centre for Joint Replacement Surgery and Orthopedics in Visakhapatnam, led by Dr. B.V.R.N. Varma (MBBS, D. Ortho). Consultations for knee and hip replacement, arthritis, and orthopedic care."
     },
     "navbar": {
       "logo": {
-        "title": "KUMAR'S ORTHO",
-        "subtitle": "& CLINIC"
+        "title": "REKON CENTRE",
+        "subtitle": "Joint Replacement & Orthopedics"
       },
       "links": [
         {
@@ -27,111 +27,96 @@
           "href": "#booking-section"
         },
         {
-          "name": "FAQ",
-          "href": "#faq"
-        },
-        {
           "name": "Contact",
           "href": "#contact"
         }
       ],
       "actions": {
-        "emergencyText": "EMERGENCY: 08554-245678",
-        "emergencyPhone": "+918554245678",
+        "emergencyText": "CALL: +91 98491 46668",
+        "emergencyPhone": "+919849146668",
         "bookAppointmentText": "BOOK APPOINTMENT"
       },
       "mobileActions": {
-        "emergencyText": "Emergency: 08554-245678",
+        "emergencyText": "Call: +91 98491 46668",
         "bookAppointmentText": "Book Appointment"
       }
     },
     "hero": {
-      "headline": "Advanced care. Trusted Healing.",
-      "subtext": "Expert orthopedic and multispeciality care with advanced treatment and compassionate support.",
+      "headline": "Rekon Centre for Joint Replacement Surgery & Orthopedics",
+      "subtext": "Dedicated orthopedic consultations, knee replacement, and hip replacement care in Visakhapatnam, led by Dr. B.V.R.N. Varma (27 years of experience).",
       "cta": "Book Appointment",
-      "emergency": "Emergency: 08554-245678"
+      "emergency": "Call: +91 98491 46668"
     },
     "services": {
-      "badge": "CENTERS OF EXCELLENCE.",
-      "headline": "We provide high-quality medical services across key healthcare disciplines with uncompromised therapeutic safety.",
+      "badge": "KEY SERVICES OFFERED",
+      "headline": "Specialized Orthopedic & Joint Replacement Care",
+      "subtext": "Rekon Centre provides focused consultations for primary and revision joint replacement surgeries (knee and hip), arthroscopy, fracture fixation, and comprehensive arthritis care.",
+      "practoLink": "https://www.practo.com/visakhapatnam/doctor/dr-b-v-r-n-varma-1-orthopedist",
       "specialties": [
         {
-          "title": "Orthopedics & Spine",
+          "title": "Primary Knee & Hip Replacement",
           "image": "/specialties/orthopedics.png"
         },
         {
-          "title": "Cardiology",
+          "title": "Revision Joint Replacement",
           "image": "/specialties/cardiology.png"
         },
         {
-          "title": "Urology",
+          "title": "Arthroscopy & Sports Care",
           "image": "/specialties/urology.png"
         },
         {
-          "title": "General Medicine",
+          "title": "Fracture Fixation & Trauma",
           "image": "/specialties/medicine.png"
         },
         {
-          "title": "General Surgery",
+          "title": "Joint Pain & Arthritis Care",
           "image": "/specialties/surgery.png"
         },
         {
-          "title": "Pediatrics",
+          "title": "Spine & Joint Disorders",
           "image": "/specialties/pediatrics.png"
         },
         {
-          "title": "Women's Health",
+          "title": "Pediatric Orthopedic Care",
           "image": "/specialties/womens_health.png"
         },
         {
-          "title": "Diagnostics & Imaging",
+          "title": "Diagnostics & Joint Imaging",
           "image": "/specialties/diagnostics.png"
         }
       ],
-      "itemBadge": "Specialty",
-      "ctaHeadline": "Trusted healthcare services focused on patient safety and quality care.",
-      "ctaButton": "Book an Appointment"
+      "itemBadge": "Service",
+      "ctaHeadline": "Consult Dr. B. V. R. N. Varma for Expert Knee, Hip, and Joint Care.",
+      "ctaButton": "Book an Appointment",
+      "ctaPracto": "View Practo Profile"
     },
     "doctor": {
-      "badge": "TEAM",
-      "headline": "Our medical leadership",
-      "subtext": "Meet our team of senior doctors shaping the future of healthcare.",
-      "doctors": [
-        {
-          "name": "Dr. A. L. M. V. Kumar",
-          "designation": "Orthopedic & Spine Surgeon",
-          "qualifications": "MBBS, MS (Ortho) | Fellow in Spine Surgery"
-        },
-        {
-          "name": "Dr. V. Karthik Reddy",
-          "designation": "Consultant Physician",
-          "qualifications": "MBBS, DNB General Medicine"
-        },
-        {
-          "name": "Dr. A. Mithun Rakesh",
-          "designation": "Consultant Physician",
-          "qualifications": "MBBS, DNB General Medicine"
-        },
-        {
-          "name": "Dr. K. Karun Kumar Reddy",
-          "designation": "General Surgeon",
-          "qualifications": "MS General Surgery, FIAGES"
-        },
-        {
-          "name": "Dr. Rajashekar Battula",
-          "designation": "Consultant Urologist",
-          "qualifications": "MS, MCh (Urology), FMAS"
-        },
-        {
-          "name": "Dr. C. Aruna Jyothi",
-          "designation": "Obstetrics & Gynecology Specialist",
-          "qualifications": "MBBS, MS (OBG)"
-        }
+      "badge": "MEET THE DOCTOR",
+      "headline": "Dr. B. V. R. N. Varma",
+      "designation": "Consultant Orthopedic & Joint Replacement Surgeon",
+      "subtext": "Dedicated orthopedic and joint replacement care in Visakhapatnam led by Dr. B. V. R. N. Varma.",
+      "qualifications": "MBBS, Diploma in Orthopaedics (D. Ortho)",
+      "experience": "27+ Years Clinical Experience",
+      "image": "/images/dr_varma.png",
+      "backgroundTitle": "Professional Background",
+      "backgroundDesc": "Dr. B. V. R. N. Varma, MBBS, D. Ortho is a senior Consultant Orthopedic & Joint Replacement Surgeon with over 27 years of dedicated clinical and surgical excellence in Visakhapatnam. Specializing in primary & complex revision knee and hip replacements, arthroscopy, and trauma fracture fixation, his care is centered on restoring pain-free mobility and long-term joint function.",
+      "philosophyTitle": "Philosophy",
+      "philosophyDesc": "Restoring active movement and confidence is the true purpose of orthopedic care. Dr. Varma approaches every patient with meticulous clinical evaluation, customized surgical planning, and compassionate post-operative rehabilitation.",
+      "quote": "My goal is to restore every patient's pain-free mobility and quality of life through advanced, patient-centric orthopedic and joint replacement care.",
+      "quoteAuthor": "— Dr. B. V. R. N. Varma",
+      "checklist": [
+        "27+ Years of Orthopedic & Joint Replacement Surgical Excellence",
+        "Specialized in Primary & Complex Revision Knee and Hip Replacements",
+        "Comprehensive Arthritis Management & Arthroscopic Procedures",
+        "Verified Practo Profile & Trusted Specialist in Visakhapatnam"
       ],
-      "ctaButton": "Book Consult"
+      "ctaButton": "Book Appointment",
+      "practoButton": "View Practo Profile",
+      "practoLink": "https://www.practo.com/visakhapatnam/doctor/dr-b-v-r-n-varma-1-orthopedist"
     },
     "whyChooseUs": {
-      "headline": "Why Kumar's Ortho Clinic",
+      "headline": "Why Rekon Centre, Visakhapatnam",
       "reasons": [
         {
           "title": "Experienced Specialists",
@@ -142,12 +127,12 @@
           "desc": "Equipped with sterile laminar airflow operation theatres, C-arm imaging, and modern diagnostic systems."
         },
         {
-          "title": "24/7 Emergency Care",
-          "desc": "Immediate admission, triaging, and critical care units active round-the-clock to manage critical accidents and trauma cases."
+          "title": "Prompt Orthopedic & Emergency Care",
+          "desc": "Immediate consultation, triaging, and fracture care active to manage acute injuries and joint concerns."
         },
         {
           "title": "Patient-Centered Treatment",
-          "desc": "Empathetic communication and clinical pathways structured dynamically around individual patient recovery and comfort."
+          "desc": "Empathetic communication and clinical pathways structured dynamically around individual patient recovery and mobility."
         }
       ]
     },
@@ -185,7 +170,7 @@
     "booking": {
       "badge": "Direct Care Access",
       "headline": "Book Your Appointment",
-      "subtext": "Select your preferred medical department, pick a specialist, and secure your schedule in minutes.",
+      "subtext": "Schedule a consultation with Dr. B. V. R. N. Varma at Rekon Centre, Dwarakanagar, Visakhapatnam. Consultation Hours: Mon - Sat 12:00 PM – 03:00 PM & 06:00 PM – 08:00 PM.",
       "form": {
         "nameLabel": "Patient Name",
         "namePlaceholder": "Enter patient full name",
@@ -196,89 +181,64 @@
         "dateLabel": "Preferred Date",
         "submitText": "Confirm Booking Request",
         "submittingText": "Saving your slot...",
-        "successTitle": "Consultation Booked!",
-        "successSubtext": "Thank you, {name}. We have registered your slot for {doctor} ({department}) on {date}. Our front desk will call you to stabilize your timing block.",
+        "successTitle": "Appointment Request Received!",
+        "successSubtext": "Thank you, {name}. We have noted your request for {doctor} ({department}) on {date}. Please call the clinic directly at +91 98491 46668 to confirm your preferred timing.",
         "successButton": "Back to Form"
       },
       "whatsapp": {
-        "badge": "WhatsApp Consultation",
-        "headline": "Book Instantly via WhatsApp",
-        "subtext": "Skip the form entirely! Start an active chat with our scheduling assistant on WhatsApp to book and verify slots instantly.",
-        "button": "Chat & Book Instantly",
-        "link": "https://wa.me/919440275556?text=I%20want%20to%20book%20an%20OPD%20appointment%20with%20Kumar%20Hospital"
+        "badge": "Direct Helpline",
+        "headline": "Call Clinic Directly",
+        "subtext": "Have questions or need assistance? Call Rekon Centre directly at +91 98491 46668 during consultation hours.",
+        "button": "Call: +91 98491 46668",
+        "link": "tel:+919849146668"
       },
       "assurances": {
         "title": "Clinical Assurances",
         "items": [
-          "100% HIPAA-compliant record management.",
-          "Pre-authorization cashless support for listing panels.",
-          "Emergency admissions triaged immediately."
+          "27 years of clinical and surgical orthopedic experience.",
+          "Specialized knee and hip replacement consultations.",
+          "Patient-focused diagnostic, evaluation, and recovery care."
         ],
-        "footer": "Apollo Standard Hospital Infrastructure"
+        "footer": "Rekon Centre For Joint Replacement Surgery and Orthopedics"
       }
-    },
-    "faq": {
-      "headline": "Frequently Asked Questions",
-      "subtext": "Common questions about how Kumar's Ortho Clinic works, what's included, and how to get started. If you don't find your answer here, reach out at <a href=\"mailto:contact@kumarhospital.com\" class=\"underline hover:text-gray-900 dark:hover:text-gray-300 transition-colors\">contact@kumarhospital.com</a> and we'll get back to you quickly.",
-      "items": [
-        {
-          "q": "How do I book an appointment with Dr. Kumar?",
-          "a": "You can request an appointment by clicking any 'Book Appointment' button on this website and filling out the short form, or by calling our desk directly at 08554-245678 or +91 94402 75556. Once submitted, our coordinator will call you to confirm your exact time slot."
-        },
-        {
-          "q": "What are the hospital consulting hours?",
-          "a": "Our Outpatient Department (OPD) is open Monday through Saturday from 9:00 AM to 8:00 PM. Emergency, trauma triaging, and inpatient critical care operations are fully active 24 hours a day, 7 days a week, including Sundays and public holidays."
-        },
-        {
-          "q": "Does the hospital handle emergency accident cases and fracture surgeries?",
-          "a": "Yes, we are a specialized trauma care center. We have an active trauma surgical team led by Dr. Kumar. Our operating theaters, in-house X-ray facility, diagnostics, and sterile wards are equipped for immediate admission and fracture fixing operations 24/7."
-        },
-        {
-          "q": "Do you offer cashless treatments or accept health insurance?",
-          "a": "Yes. We partner with major health insurance companies and Third-Party Administrators (TPAs) to provide cashless treatment for qualifying surgical procedures. Please visit our front office with your health card and ID for pre-authorization details."
-        },
-        {
-          "q": "Is there in-house physical therapy available for post-surgical recovery?",
-          "a": "Absolutely. We have a dedicated Physiotherapy and Rehabilitation department inside the hospital. Our physical therapists design customized mobility recovery and pain-management programs specifically for patients recovering from joint replacements, fracture repairs, and ligament reconstructions."
-        }
-      ]
     },
     "contact": {
       "badge": "Locate & Visit Us",
-      "headline": "Hospital Location & Directions",
-      "subtext": "Easily navigate to Kumar's Ortho Clinic in Anantapur. Find precise driving directions, parking layout, and quick contact details.",
+      "headline": "Clinic Location & Directions",
+      "subtext": "Visit Rekon Centre at Srinagar, Dwarakanagar, Visakhapatnam. Located opposite Gouthami Complex on Ram Talkies 40 Feet Road.",
       "map": {
-        "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.4287895315806!2d77.58552147573031!3d14.660600175628588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb14ab59e219491%3A0x6b19a16f2c79f3cf!2sVidyut%20Nagar%2080%20Feet%20Rd%2C%20Vidyut%20Nagar%2C%20Anantapur%2C%20Andhra%20Pradesh%20515001!5e0!3m2!1sen!2sin!4v1716658000000!5m2!1sen!2sin",
-        "linkUrl": "https://maps.google.com/?q=Vidyut+Nagar+80+Feet+Rd,+Vidyut+Nagar,+Anantapur,+Andhra+Pradesh+515001",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.5!2d83.308!3d17.729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDQzJzQ0LjQiTiA4M8KwMTgnMjguOCJF!5e0!3m2!1sen!2sin!4v1716658000000!5m2!1sen!2sin",
+        "linkUrl": "https://maps.google.com/?q=Rekon+Centre+For+Joint+Replacement+Surgery+Dwarakanagar+Visakhapatnam",
         "btnText": "Open in Google Maps"
       },
       "addressCard": {
-        "title": "Hospital Address",
-        "desc": "Kumar's Ortho Clinic is easily accessible for patients coming from all corners of Anantapur District.",
+        "title": "Clinic Address",
+        "desc": "Rekon Centre is centrally located in Visakhapatnam, easily accessible from all parts of the city.",
         "addressLines": [
-          "12-4, 80 Feet Road,",
-          "Vidyuth Nagar, Housing Board Colony,",
-          "Anantapur, Andhra Pradesh - 515001, India"
+          "48-3-65, B.V.K. College Road,",
+          "Srinagar, Ram Talkies 40 Feet Road,",
+          "Opposite Gouthami Complex,",
+          "Visakhapatnam – 530016, Andhra Pradesh"
         ],
         "btnText": "Get Driving Directions"
       },
       "infoCard": {
         "hoursTitle": "Consulting Hours",
-        "hoursDesc": "Mon - Sat: 9:00 AM - 8:00 PM",
-        "hoursEmergency": "Emergency Admissions & Trauma Care: 24/7 Live",
+        "hoursDesc": "Mon - Sat: 12:00 PM – 03:00 PM & 06:00 PM – 08:00 PM",
+        "hoursEmergency": "Emergency Orthopedic Care: Attended Promptly",
         "phoneTitle": "Direct Helpline Contacts",
-        "phone1Text": "OPD Desk: 08554-245678",
-        "phone1Link": "tel:08554245678",
-        "phone2Text": "Hotline: +91 94402 75556",
-        "phone2Link": "tel:+919440275556",
-        "whatsappBtn": "Chat Instantly on WhatsApp",
-        "whatsappLink": "https://wa.me/919440275556?text=Hi%20Kumar%20Hospital,%20I%27d%20like%20to%20inquire%20about%20your%20services."
+        "phone1Text": "Clinic Desk: +91 98491 46668",
+        "phone1Link": "tel:+919849146668",
+        "phone2Text": "Direct Line: +91 98491 46668",
+        "phone2Link": "tel:+919849146668",
+        "whatsappBtn": "Call Clinic Directly",
+        "whatsappLink": "tel:+919849146668"
       }
     },
     "footer": {
       "brand": {
-        "title": "KUMAR'S ORTHO & Multi-Specality Hospital",
-        "description": "Established in 2021, Kumar's Ortho Clinic is dedicated to delivering state-of-the-art orthopedic surgery, trauma care, and multi-speciality healthcare services to the community of Anantapur.",
+        "title": "Rekon Centre For Joint Replacement Surgery and Orthopedics",
+        "description": "Led by Dr. B.V.R.N. Varma (MBBS, D. Ortho), Rekon Centre in Visakhapatnam is committed to professional orthopedic consultations, joint replacement care, and patient recovery.",
         "badge": "Certified Orthopedic Excellence"
       },
       "quickLinks": {
@@ -313,36 +273,33 @@
       "specialties": {
         "title": "Our Specialties",
         "items": [
-          "Orthopedic & Spine Surgery",
+          "Orthopedic & Joint Replacement",
           "Complex Fracture & Trauma Care",
           "General & Preventive Medicine",
           "Physiotherapy & Rehabilitation",
-          "24/7 Emergency & ICU Care"
+          "Emergency Care"
         ]
       },
       "reachOut": {
         "title": "Reach Out",
-        "address": "12-4, 80 Feet Road, Vidyuth Nagar,\nHousing Board Colony, Anantapur,\nAndhra Pradesh 515001",
+        "address": "48-3-65, B.V.K. College Road, Srinagar,\nRam Talkies 40 Feet Road, opposite Gouthami Complex,\nVisakhapatnam – 530016, Andhra Pradesh",
         "phone1": {
-          "display": "08554-245678",
-          "href": "tel:+918554245678"
+          "display": "+91 98491 46668",
+          "href": "tel:+919849146668"
         },
         "phone2": {
-          "display": "+91 94402 75556",
-          "href": "tel:+919440275556"
+          "display": "Helpline: +91 98491 46668",
+          "href": "tel:+919849146668"
         },
-        "email": {
-          "display": "info@kumarorthohospital.com",
-          "href": "mailto:info@kumarorthohospital.com"
-        }
+        "email": null
       },
       "opdTimings": {
         "title": "OPD CONSULTATION TIMES",
-        "regular": "Mon - Sat: 9:00 AM - 8:00 PM",
-        "sunday": "Sunday: Emergency Trauma Only"
+        "regular": "Mon - Sat: 12:00 PM – 03:00 PM & 06:00 PM – 08:00 PM",
+        "sunday": "Sunday: By Prior Appointment"
       },
       "legal": {
-        "copyright": "Kumar's Ortho Clinic. All rights reserved.",
+        "copyright": "Rekon Centre For Joint Replacement Surgery and Orthopedics. All rights reserved.",
         "links": [
           {
             "name": "Terms of Use",
@@ -354,11 +311,11 @@
           },
           {
             "name": "Sitemap",
-            "href": "#faq"
+            "href": "#contact"
           }
         ],
         "madeWith": "Made with",
-        "madeIn": "in India."
+        "madeIn": "in Visakhapatnam."
       }
     }
   }

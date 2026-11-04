@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from "framer-motion";
 import { Calendar, Stethoscope, FileText, CheckSquare, HeartPulse, ChevronRight } from "lucide-react";
@@ -90,7 +90,7 @@ export default function PatientJourney() {
                 </div>
 
                 <div className="pt-4 mt-4 w-full flex items-center justify-between border-t border-gray-100 dark:border-zinc-800">
-                  <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Kumar Steps</span>
+                  <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Care Steps</span>
                   <ChevronRight className="h-4 w-4 text-blue-500 group-hover:translate-x-1.5 transition-transform" />
                 </div>
               </motion.div>

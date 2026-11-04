@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from "framer-motion";
 import { Clock, ArrowRight } from "lucide-react";
@@ -42,7 +42,7 @@ export default function Blog() {
           </h2>
           <div className="h-1 w-20 bg-teal-500 mx-auto mt-4 rounded-full" />
           <p className="text-gray-500 dark:text-zinc-400 mt-4 text-sm sm:text-base">
-            Empowering our community in Anantapur with practical guidelines on bone health, injury avoidance, and recovery routines.
+            Empowering our community in Visakhapatnam with practical guidelines on bone health, joint care, and recovery routines.
           </p>
         </div>
 

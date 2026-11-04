@@ -22,24 +22,28 @@ export default function Services({ onOpenBooking, data }: ServicesProps) {
   return (
     <section
       id="services"
-      className="bg-transparent text-black px-4 sm:px-6 lg:px-8 py-24 flex flex-col items-center overflow-hidden"
-
+      className="bg-transparent text-black px-4 sm:px-6 lg:px-8 py-10 sm:py-14 scroll-mt-24 flex flex-col items-center overflow-hidden"
     >
       <div className="w-full max-w-6xl mx-auto flex flex-col items-center">
 
         {/* Section Header */}
-        <div className="text-center mb-20 flex flex-col items-center px-4">
-          <span className="text-[10px] sm:text-xs uppercase tracking-[0.25em] text-[#6B7280] mb-6">
+        <div className="text-center mb-8 sm:mb-10 flex flex-col items-center px-4">
+          <span className="text-[10px] sm:text-xs uppercase tracking-[0.25em] text-[#6B7280] mb-3">
             {data.badge}
           </span>
 
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[60px] font-serif text-[#111111] tracking-tight leading-[1.05] max-w-5xl text-center">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-serif text-[#111111] tracking-tight leading-[1.1] max-w-5xl text-center">
             {data.headline}
           </h2>
+          {data.subtext && (
+            <p className="text-gray-500 dark:text-zinc-400 text-sm sm:text-base max-w-3xl text-center mt-3">
+              {data.subtext}
+            </p>
+          )}
         </div>
 
         {/* Services Grid */}
-        <div className="w-full mt-8">
+        <div className="w-full mt-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             {specialties.map((spec: any, idx: number) => (
               <motion.div
@@ -75,20 +79,6 @@ export default function Services({ onOpenBooking, data }: ServicesProps) {
               </motion.div>
             ))}
           </div>
-        </div>
-
-        {/* CTA Section */}
-        <div className="mt-20 w-full bg-[#B24E39] rounded-[28px] sm:rounded-[36px] p-12 sm:p-16 lg:p-24 flex flex-col items-center justify-center text-center shadow-xl">
-          <h3 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-white max-w-4xl leading-[1.1] mb-10 tracking-tight">
-            {data.ctaHeadline}
-          </h3>
-
-          <button
-            onClick={onOpenBooking}
-            className="bg-white text-[#B24E39] hover:bg-[#F5F5F5] font-semibold text-sm px-7 py-3 rounded-xl transition-all duration-300 shadow-sm"
-          >
-            {data.ctaButton}
-          </button>
         </div>
       </div>
     </section>

@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -8,35 +8,35 @@ export default function Testimonials() {
   const reviews = [
     {
       name: "Ramesh Babu",
-      location: "Anantapur",
+      location: "Visakhapatnam",
       treatment: "Emergency Fracture Surgery",
       rating: 5,
       story:
-        "I was rushed to Kumar's Ortho Clinic late at night after a major road accident with a severe compound leg fracture. Dr. Kumar operated immediately. His calm demeanor and surgical expertise saved my limb. Six months later, I am walking completely pain-free.",
+        "I was brought to Rekon Centre after a sudden road accident with a severe compound leg fracture. Dr. Varma evaluated and treated the fracture with immense precision. His calm demeanor and surgical expertise saved my mobility. I am now walking pain-free.",
     },
     {
       name: "Lakshmi Devi",
-      location: "Dharmavaram",
+      location: "Gajuwaka, Visakhapatnam",
       treatment: "Total Knee Replacement",
       rating: 5,
       story:
-        "My mother was suffering from severe arthritis for years. We decided to consult Dr. Kumar. The total knee replacement surgery went smoothly. The post-surgery physiotherapy staff was incredibly patient, guiding her back to mobility. Highly recommend their rehab care.",
+        "My mother was suffering from severe knee arthritis for years. We decided to consult Dr. Varma at Rekon Centre. The knee replacement guidance went smoothly and the recovery plan helped restore her daily walking confidence. Highly recommend their joint care.",
     },
     {
       name: "Dr. K. Rajesh",
-      location: "Gooty",
-      treatment: "Spine Care / Disc Treatment",
+      location: "MVP Colony, Visakhapatnam",
+      treatment: "Spine Care & Joint Rehabilitation",
       rating: 5,
       story:
-        "Being a doctor myself, I am very critical of sterile standards and diagnostics. I brought my mother here for her chronic sciatica and slip disc issue. The treatment was highly scientific, starting with target nerve blocks and rehab. The results have been exceptional.",
+        "Being a doctor myself, I am very critical of clinical standards and diagnostics. I brought my family member here for chronic joint stiffness and pain. The consultation was thorough, highly scientific, and focused on genuine recovery.",
     },
     {
       name: "S. Rahamatullah",
-      location: "Anantapur",
-      treatment: "Emergency Sports Trauma",
+      location: "Dwarakanagar, Visakhapatnam",
+      treatment: "Sports Injury & Trauma",
       rating: 5,
       story:
-        "My son dislocated his shoulder during an inter-school sports match. The trauma team at Kumar's Ortho Clinic was ready within minutes of our arrival. They relocated the joint under mild sedation quickly. Their responsiveness and affordable charges are highly commendable.",
+        "My son dislocated his shoulder during a sports match. Dr. Varma and the team at Rekon Centre attended to him swiftly. They stabilized the joint quickly with great care. Their responsiveness and professionalism are commendable.",
     },
   ];
 

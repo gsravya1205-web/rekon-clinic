@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -70,7 +70,7 @@ export default function Gallery() {
           </h2>
           <div className="h-1 w-20 bg-blue-500 mx-auto mt-4 rounded-full" />
           <p className="text-gray-500 dark:text-zinc-400 mt-4 text-sm sm:text-base">
-            Take a visual tour of the Kumar's Ortho Clinic campus. View actual clinical spaces, high-end infrastructure, and healing environments.
+            Take a visual tour of Rekon Centre. View clinical spaces, orthopedic consulting facilities, and patient-focused environments.
           </p>
         </div>
 

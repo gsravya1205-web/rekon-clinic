@@ -9,7 +9,6 @@ import DoctorLayout from "@/tier2-layouts/DoctorLayout";
 import WhyChooseUsLayout from "@/tier2-layouts/WhyChooseUsLayout";
 import FacilitiesLayout from "@/tier2-layouts/FacilitiesLayout";
 import AppointmentBookingLayout from "@/tier2-layouts/AppointmentBookingLayout";
-import FAQLayout from "@/tier2-layouts/FAQLayout";
 import ContactLayout from "@/tier2-layouts/ContactLayout";
 import AppointmentModal from "@/tier1-components/AppointmentModal";
 import EmergencyFloating from "@/tier1-components/EmergencyFloating";
@@ -45,7 +44,6 @@ export default function StandardPageTemplate({ content }: StandardPageTemplatePr
         {content.layout.whyChooseUs && <WhyChooseUsLayout data={content.layout.whyChooseUs} />}
         {content.layout.facilities && <FacilitiesLayout data={content.layout.facilities} />}
         {content.layout.booking && <AppointmentBookingLayout data={content.layout.booking} />}
-        {content.layout.faq && <FAQLayout data={content.layout.faq} />}
         {content.layout.contact && <ContactLayout data={content.layout.contact} />}
       </main>
 

@@ -16,46 +16,43 @@ export default function Facilities({ data }: FacilitiesProps) {
   return (
     <section
       id="facilities"
-      className="bg-transparent text-black px-4 sm:px-6 lg:px-8 py-24 flex flex-col items-center overflow-hidden"
+      className="bg-transparent text-black px-4 sm:px-6 lg:px-8 py-4 sm:py-6 scroll-mt-28 flex flex-col items-center overflow-hidden"
     >
       <div className="w-full max-w-5xl mx-auto flex flex-col">
 
         {/* Section Header */}
-        <div className="mb-16 flex flex-col px-4 text-left">
-          <span className="text-[10px] font-bold uppercase tracking-widest text-gray-500 mb-6">
+        <div className="text-center max-w-2xl mx-auto mb-4 sm:mb-5">
+          <span className="text-[11px] font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20 px-3 py-1 rounded-md inline-block mb-1.5">
             {data.badge}
           </span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-serif text-[#111111] dark:text-white font-medium tracking-tight leading-[1.1] max-w-3xl mb-4">
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0B1F3A] dark:text-white tracking-tight">
             {data.headline}
           </h2>
-          <p className="text-sm sm:text-base text-gray-500 dark:text-zinc-400 max-w-2xl">
+          <div className="h-1 w-16 bg-blue-500 mx-auto mt-2 rounded-full" />
+          <p className="text-xs sm:text-[13px] text-gray-500 dark:text-zinc-400 mt-2 max-w-xl mx-auto">
             {data.subtext}
           </p>
         </div>
 
-        {/* Custom Context Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+        {/* Custom Context Cards Grid (All 6 cards visible together) */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 w-full">
           {items.map((item: any, idx: number) => (
             <motion.div
               key={idx}
-              initial={{ opacity: 0, y: 15 }}
+              initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
-              whileHover={{ y: -8 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: idx * 0.05 }}
-              className="group relative overflow-hidden rounded-[16px] bg-white dark:bg-zinc-900 p-8 border border-gray-200 dark:border-zinc-800 hover:border-transparent dark:hover:border-zinc-700 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between min-h-[220px] cursor-pointer"
+              transition={{ duration: 0.4, delay: idx * 0.04 }}
+              className="group relative overflow-hidden rounded-2xl bg-white dark:bg-zinc-900 p-4 sm:p-5 border border-gray-150 dark:border-zinc-800 shadow-sm hover:shadow-md hover:border-blue-300 dark:hover:border-zinc-700 transition-all flex flex-col justify-start"
             >
-              {/* Card top half */}
               <div className="relative z-10">
-
-
                 {/* Title */}
-                <h3 className="text-[17px] font-bold text-[#111111] dark:text-white mb-2 leading-snug">
+                <h3 className="text-sm sm:text-[15px] font-bold text-[#0B1F3A] dark:text-white mb-1.5 leading-snug">
                   {item.title}
                 </h3>
 
                 {/* Description */}
-                <p className="text-[13px] text-gray-500 dark:text-zinc-400 leading-relaxed font-medium">
+                <p className="text-xs text-gray-500 dark:text-zinc-400 leading-relaxed font-normal">
                   {item.desc}
                 </p>
               </div>
