@@ -28,11 +28,11 @@ export default function Doctor({ onOpenBooking, data }: DoctorProps) {
               className="lg:col-span-4 flex justify-center"
             >
               <div className="relative rounded-2xl overflow-hidden border border-amber-200/60 dark:border-zinc-700 bg-gradient-to-b from-amber-50/50 to-white dark:from-zinc-800/80 dark:to-zinc-900 shadow-lg p-2.5 w-full max-w-[240px] sm:max-w-[260px]">
-                <div className="relative aspect-[3/4] w-full rounded-xl overflow-hidden bg-slate-100 dark:bg-zinc-800 shadow-inner">
+                <div className="relative aspect-[3/4] w-full rounded-xl overflow-hidden bg-slate-100 dark:bg-zinc-800">
                   <img
                     src={data.image || "/images/dr_varma.png"}
                     alt={data.headline || "Dr. B. V. R. N. Varma"}
-                    className="w-full h-full object-cover object-top"
+                    className="w-full h-full object-cover object-center"
                   />
                   {/* Doctor Info Badge Overlay */}
                   <div className="absolute bottom-2.5 left-2.5 right-2.5 bg-[#112338]/95 backdrop-blur-md text-white py-2 px-3 rounded-lg text-center shadow border border-white/10">
