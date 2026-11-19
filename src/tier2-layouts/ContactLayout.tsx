@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { MapPin, ExternalLink, Clock, Phone, MessageSquare } from "lucide-react";
+import { MapPin, ExternalLink, Clock, Phone } from "lucide-react";
 
 interface ContactProps {
   data: any;
@@ -118,9 +118,9 @@ export default function Contact({ data }: ContactProps) {
                   </div>
                   <div className="flex items-center justify-between text-gray-700 dark:text-zinc-300 font-medium pt-1 border-t border-blue-100 dark:border-zinc-700/40">
                     <div>Fee: <span className="font-bold text-[#0B1F3A] dark:text-white">₹500</span></div>
-                    <div className="flex items-center gap-1">
-                      <Phone className="h-3 w-3 text-blue-600" />
-                      <span>Helpline: <a href="tel:+919849146668" className="font-bold text-blue-600 hover:underline">+91 98491 46668</a></span>
+                    <div className="flex items-center gap-1 text-slate-600 dark:text-zinc-400">
+                      <Clock className="h-3 w-3 text-teal-600 dark:text-teal-400" />
+                      <span>Sunday: <span className="font-bold text-[#0B1F3A] dark:text-white">By Appointment</span></span>
                     </div>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ export default function Contact({ data }: ContactProps) {
                     href="tel:+919849146668"
                     className="w-full inline-flex items-center justify-center gap-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs py-2 px-3 shadow transition-colors"
                   >
-                    <MessageSquare className="h-3.5 w-3.5 fill-white stroke-none" />
+                    <Phone className="h-3.5 w-3.5" />
                     <span>Call Clinic Directly (+91 98491 46668)</span>
                   </a>
                 </div>
