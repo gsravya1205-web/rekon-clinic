@@ -34,7 +34,7 @@ export default function Contact({ data }: ContactProps) {
   };
 
   return (
-    <section id="contact" className="bg-transparent font-sans px-3 sm:px-6 lg:px-8 py-4 sm:py-6 scroll-mt-20 sm:scroll-mt-28 flex flex-col items-center overflow-hidden">
+    <section id="contact" className="bg-transparent font-sans px-3 sm:px-6 lg:px-8 py-10 sm:py-16 lg:py-20 scroll-mt-24 sm:scroll-mt-28 lg:scroll-mt-32 flex flex-col items-center overflow-hidden">
       <div className="w-full max-w-6xl mx-auto">
         
         {/* Section Header */}

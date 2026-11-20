@@ -20,7 +20,7 @@ export default function Footer() {
             <img
               src="/logo.png"
               alt="Rekon Clinic Logo"
-              className="h-8 sm:h-11 w-auto object-contain shrink-0"
+              className="h-10 sm:h-12 w-auto object-contain shrink-0 rounded-sm"
             />
             <div className="h-5 w-[1px] bg-slate-700/50 hidden sm:block shrink-0" />
             <span className="text-xs sm:text-sm font-bold text-white tracking-wide leading-snug break-words">

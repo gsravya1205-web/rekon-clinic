@@ -74,7 +74,7 @@ export default function AppointmentBooking({ data }: BookingProps) {
   };
 
   return (
-    <section id="booking-section" className="bg-transparent font-sans px-3 sm:px-6 lg:px-8 py-6 sm:py-10 scroll-mt-20 sm:scroll-mt-24 flex flex-col items-center overflow-hidden">
+    <section id="booking-section" className="bg-transparent font-sans px-3 sm:px-6 lg:px-8 py-10 sm:py-16 lg:py-20 scroll-mt-24 sm:scroll-mt-28 lg:scroll-mt-32 flex flex-col items-center overflow-hidden">
       <div className="relative w-full max-w-[1440px] rounded-2xl sm:rounded-[40px] overflow-hidden bg-transparent pt-2 sm:pt-4 pb-4 sm:pb-6">
         <div className="mx-auto max-w-7xl relative z-10">
           

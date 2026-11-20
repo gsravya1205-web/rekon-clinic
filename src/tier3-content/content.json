@@ -43,7 +43,8 @@
     },
     "hero": {
       "headline": "Rekon Clinic",
-      "subtext": "Centre for Robotic Joint Replacement Surgery and Orthopaedic. Dedicated orthopedic consultations, robotic knee and hip replacement care in Visakhapatnam, led by Dr. B.V.R.N. Varma (27 years of experience).",
+      "highlight": "Centre for Robotic Joint Replacement Surgery and Orthopaedic",
+      "subtext": "Dedicated orthopedic consultations, robotic knee and hip replacement care in Visakhapatnam, led by Dr. B.V.R.N. Varma (27 years of experience).",
       "cta": "Book Appointment",
       "emergency": "Call: +91 98491 46668"
     },

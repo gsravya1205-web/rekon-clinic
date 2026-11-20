@@ -5,6 +5,7 @@ import { ArrowRight, Phone, Calendar, Award } from "lucide-react";
 
 export interface HeroData {
   headline: string;
+  highlight?: string;
   subtext: string;
   cta?: string;
   emergency?: string;
@@ -19,10 +20,10 @@ export default function Hero({ onOpenBooking, data }: HeroProps) {
   return (
     <section
       id="home"
-      className="relative min-h-[520px] sm:min-h-[60vh] lg:min-h-[68vh] w-full flex flex-col overflow-hidden bg-white px-2.5 sm:px-6 pt-2.5 sm:pt-3 pb-2.5 sm:pb-3"
+      className="relative min-h-[580px] sm:min-h-[85vh] lg:min-h-[calc(100vh-2rem)] w-full flex flex-col justify-center overflow-hidden bg-white p-2.5 sm:p-4 lg:p-5 mb-4 sm:mb-8"
     >
       {/* Background Image Container */}
-      <div className="absolute inset-x-2.5 inset-y-2.5 sm:inset-x-6 sm:inset-y-3 lg:bottom-4 z-0 rounded-2xl sm:rounded-[32px] overflow-hidden">
+      <div className="absolute inset-2.5 sm:inset-4 lg:inset-5 z-0 rounded-2xl sm:rounded-[32px] overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: "url('/hero_bg.png')" }}
@@ -33,7 +34,7 @@ export default function Hero({ onOpenBooking, data }: HeroProps) {
       </div>
 
       {/* Main Center Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center pt-20 sm:pt-28 pb-14 sm:pb-20 px-3 sm:px-4 w-full h-full text-center my-auto">
+      <div className="relative z-10 flex flex-col items-center justify-center pt-24 sm:pt-32 lg:pt-36 pb-16 sm:pb-24 lg:pb-28 px-3 sm:px-6 w-full h-full text-center my-auto">
         {/* Trust Badge */}
         <motion.div
           initial={{ opacity: 0, y: -10 }}
@@ -50,17 +51,29 @@ export default function Hero({ onOpenBooking, data }: HeroProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-[68px] font-bold tracking-tight text-white leading-[1.15] max-w-5xl break-words"
+          className="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-[76px] font-black tracking-tight text-white leading-[1.08] max-w-5xl break-words drop-shadow-lg"
         >
           {data.headline}
         </motion.h1>
+
+        {/* Highlighted Line matching Rekon Clinic name prominence */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.08 }}
+          className="mt-2.5 sm:mt-4 max-w-4xl px-2"
+        >
+          <span className="inline-block text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-[34px] font-extrabold tracking-tight text-teal-300 drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)] leading-snug">
+            {data.highlight || "Centre for Robotic Joint Replacement Surgery and Orthopaedic"}
+          </span>
+        </motion.div>
 
         {/* Subtext */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          className="mt-3 sm:mt-5 text-xs sm:text-base lg:text-lg text-white/90 max-w-2xl font-light leading-relaxed px-2"
+          transition={{ duration: 0.6, delay: 0.15 }}
+          className="mt-3 sm:mt-4 text-xs sm:text-sm md:text-base text-white/90 max-w-2xl font-normal leading-relaxed px-2 drop-shadow"
         >
           {data.subtext}
         </motion.p>

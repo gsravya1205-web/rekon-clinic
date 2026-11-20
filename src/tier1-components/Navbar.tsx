@@ -87,12 +87,12 @@ export default function Navbar({ onOpenBooking, data }: NavbarProps) {
 
         {/* Center Logo Cutout with official new logo */}
         <div className="absolute left-1/2 -translate-x-1/2 top-0 z-20">
-          <div className="navbar-cutout px-3 sm:px-6 lg:px-10 pt-1 sm:pt-2 pb-2 sm:pb-4 pointer-events-auto flex justify-center items-center shadow-sm">
-            <a href="#home" className="flex items-center group">
+          <div className="navbar-cutout px-3 sm:px-6 lg:px-8 py-2 sm:py-2.5 pointer-events-auto flex justify-center items-center shadow-sm">
+            <a href="#home" className="flex items-center justify-center group">
               <img
                 src="/logo.png"
                 alt="Rekon Clinic"
-                className="h-8 sm:h-10 md:h-12 w-auto max-w-[140px] xs:max-w-[170px] sm:max-w-[210px] object-contain hover:scale-[1.02] transition-transform duration-300"
+                className="h-8 sm:h-10 md:h-11 w-auto max-w-[140px] xs:max-w-[170px] sm:max-w-[210px] object-contain hover:scale-[1.02] transition-transform duration-300 rounded"
               />
             </a>
           </div>

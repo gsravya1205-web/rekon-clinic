@@ -26,21 +26,21 @@ export default function Services({ onOpenBooking, data }: ServicesProps) {
   return (
     <section
       id="services"
-      className="bg-transparent text-black px-3 sm:px-6 lg:px-8 py-8 sm:py-14 scroll-mt-20 sm:scroll-mt-24 flex flex-col items-center overflow-hidden"
+      className="bg-transparent text-black px-3 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24 scroll-mt-24 sm:scroll-mt-28 lg:scroll-mt-32 flex flex-col items-center overflow-hidden"
     >
       <div className="w-full max-w-6xl mx-auto flex flex-col items-center">
 
         {/* Section Header */}
-        <div className="text-center mb-6 sm:mb-10 flex flex-col items-center px-2 sm:px-4">
+        <div className="text-center mb-8 sm:mb-12 flex flex-col items-center px-2 sm:px-4">
           <span className="text-[10px] sm:text-xs uppercase tracking-[0.2em] sm:tracking-[0.25em] text-[#6B7280] font-semibold mb-2 sm:mb-3">
             {data.badge}
           </span>
 
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-serif text-[#111111] tracking-tight leading-[1.15] max-w-5xl text-center">
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-serif text-[#111111] tracking-tight leading-tight sm:leading-[1.2] max-w-5xl text-center pb-1">
             {data.headline}
           </h2>
           {data.subtext && (
-            <p className="text-gray-500 text-xs sm:text-sm md:text-base max-w-3xl text-center mt-2.5 sm:mt-3 leading-relaxed">
+            <p className="text-gray-500 text-xs sm:text-sm md:text-base max-w-3xl text-center mt-3 leading-relaxed">
               {data.subtext}
             </p>
           )}
