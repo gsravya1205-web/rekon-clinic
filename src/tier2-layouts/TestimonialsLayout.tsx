@@ -1,37 +1,29 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Quote, ChevronLeft, ChevronRight, Star, HeartPulse } from "lucide-react";
+import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 
 export default function Testimonials() {
   const reviews = [
     {
-      name: "Ramesh Babu",
-      location: "Visakhapatnam",
-      treatment: "Emergency Fracture Surgery",
+      name: "Lakshmi Narayana",
+      location: "Ram Talkies Road, Visakhapatnam",
+      treatment: "Bilateral Total Knee Replacement",
       rating: 5,
       story:
-        "I was brought to Rekon Centre after a sudden road accident with a severe compound leg fracture. Dr. Varma evaluated and treated the fracture with immense precision. His calm demeanor and surgical expertise saved my mobility. I am now walking pain-free.",
+        "For over three years, severe osteoarthritis made even walking in my own house an agonizing struggle. Consulting Dr. B.V.R.N. Varma at Rekon Centre was the best healthcare decision of my life. The surgical precision, transparent explanations, and dedicated physiotherapy follow-up allowed me to walk pain-free within weeks.",
     },
     {
-      name: "Lakshmi Devi",
+      name: "K. Appala Swamy",
       location: "Gajuwaka, Visakhapatnam",
-      treatment: "Total Knee Replacement",
+      treatment: "Complex Revision Hip Replacement",
       rating: 5,
       story:
-        "My mother was suffering from severe knee arthritis for years. We decided to consult Dr. Varma at Rekon Centre. The knee replacement guidance went smoothly and the recovery plan helped restore her daily walking confidence. Highly recommend their joint care.",
+        "After a failed hip procedure done elsewhere, I was referred to Dr. Varma for a revision surgery. His senior clinical experience and thorough pre-op assessment gave my family immense confidence. Today, I have regained complete mobility without limp or discomfort.",
     },
     {
-      name: "Dr. K. Rajesh",
-      location: "MVP Colony, Visakhapatnam",
-      treatment: "Spine Care & Joint Rehabilitation",
-      rating: 5,
-      story:
-        "Being a doctor myself, I am very critical of clinical standards and diagnostics. I brought my family member here for chronic joint stiffness and pain. The consultation was thorough, highly scientific, and focused on genuine recovery.",
-    },
-    {
-      name: "S. Rahamatullah",
+      name: "S. Rama Rao",
       location: "Dwarakanagar, Visakhapatnam",
       treatment: "Sports Injury & Trauma",
       rating: 5,
@@ -42,21 +34,21 @@ export default function Testimonials() {
 
   const [current, setCurrent] = useState(0);
 
+  const nextSlide = useCallback(() => {
+    setCurrent((prev) => (prev === reviews.length - 1 ? 0 : prev + 1));
+  }, [reviews.length]);
+
+  const prevSlide = useCallback(() => {
+    setCurrent((prev) => (prev === 0 ? reviews.length - 1 : prev - 1));
+  }, [reviews.length]);
+
   // Auto-sliding Carousel logic
   useEffect(() => {
     const timer = setInterval(() => {
       nextSlide();
     }, 6000);
     return () => clearInterval(timer);
-  }, [current]);
-
-  const nextSlide = () => {
-    setCurrent((prev) => (prev === reviews.length - 1 ? 0 : prev + 1));
-  };
-
-  const prevSlide = () => {
-    setCurrent((prev) => (prev === 0 ? reviews.length - 1 : prev - 1));
-  };
+  }, [nextSlide]);
 
   return (
     <section id="testimonials" className="py-24 bg-gradient-to-tr from-blue-50/50 to-teal-50/50 dark:bg-zinc-950 font-sans relative overflow-hidden">
@@ -73,98 +65,85 @@ export default function Testimonials() {
             Patient Stories That Inspire Us Daily
           </h2>
           <div className="h-1 w-20 bg-blue-500 mx-auto mt-4 rounded-full" />
+          <p className="text-gray-500 dark:text-zinc-400 mt-4 text-base">
+            Every recovery is a milestone. Read firsthand experiences from patients who entrusted their mobility and joint health to Rekon Centre.
+          </p>
         </div>
 
         {/* Carousel Container */}
-        <div className="max-w-4xl mx-auto relative px-4 sm:px-12">
-          
-          <div className="overflow-hidden rounded-[32px] bg-white dark:bg-zinc-850 p-8 sm:p-12 border border-gray-100 dark:border-zinc-800 shadow-xl glow-navy relative">
-            <Quote className="absolute top-6 right-8 h-16 w-16 text-blue-500/10 dark:text-zinc-800/40 pointer-events-none" />
-            
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={current}
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                transition={{ duration: 0.3 }}
-                className="flex flex-col gap-6"
-              >
-                {/* Rating */}
-                <div className="flex gap-1">
-                  {[...Array(reviews[current].rating)].map((_, i) => (
-                    <Star key={i} className="h-5 w-5 fill-blue-500 text-blue-500" />
-                  ))}
+        <div className="relative max-w-4xl mx-auto">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={current}
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -20 }}
+              transition={{ duration: 0.4 }}
+              className="bg-white dark:bg-zinc-900 rounded-3xl p-8 sm:p-12 shadow-xl border border-gray-150 dark:border-zinc-800 relative"
+            >
+              <Quote className="absolute top-8 right-8 h-12 w-12 text-blue-100 dark:text-zinc-800 pointer-events-none" />
+
+              {/* Stars */}
+              <div className="flex gap-1 mb-6">
+                {[...Array(reviews[current].rating)].map((_, i) => (
+                  <Star key={i} className="h-5 w-5 fill-amber-400 text-amber-400" />
+                ))}
+              </div>
+
+              {/* Review Text */}
+              <p className="text-gray-700 dark:text-zinc-200 text-lg sm:text-xl font-normal leading-relaxed italic mb-8">
+                &ldquo;{reviews[current].story}&rdquo;
+              </p>
+
+              {/* Reviewer Details */}
+              <div className="flex items-center justify-between border-t border-gray-100 dark:border-zinc-800 pt-6">
+                <div>
+                  <h4 className="font-extrabold text-[#0B1F3A] dark:text-white text-base sm:text-lg">
+                    {reviews[current].name}
+                  </h4>
+                  <p className="text-xs text-gray-400 dark:text-zinc-500 mt-0.5">
+                    {reviews[current].location}
+                  </p>
                 </div>
-
-                {/* Narrative */}
-                <p className="text-base sm:text-lg text-gray-600 dark:text-zinc-300 leading-relaxed italic font-medium">
-                  &ldquo;{reviews[current].story}&rdquo;
-                </p>
-
-                {/* Reviewer Details */}
-                <div className="flex items-center gap-4 border-t border-gray-150 dark:border-zinc-800 pt-6 mt-2">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-50 dark:bg-blue-950/30 text-blue-600 font-extrabold text-lg">
-                    {reviews[current].name.charAt(0)}
-                  </div>
-                  <div>
-                    <span className="block text-base font-bold text-[#0B1F3A] dark:text-white">
-                      {reviews[current].name}
-                    </span>
-                    <span className="block text-xs text-gray-400">
-                      {reviews[current].location} â€¢ Treated for <strong className="text-blue-600 dark:text-blue-400">{reviews[current].treatment}</strong>
-                    </span>
-                  </div>
-                </div>
-              </motion.div>
-            </AnimatePresence>
-
-          </div>
+                <span className="hidden sm:inline-block px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 border border-blue-100 dark:border-blue-800">
+                  {reviews[current].treatment}
+                </span>
+              </div>
+            </motion.div>
+          </AnimatePresence>
 
           {/* Navigation Controls */}
-          <div className="flex justify-center gap-4 mt-8">
+          <div className="flex justify-center items-center gap-4 mt-8">
             <button
               onClick={prevSlide}
-              className="flex h-11 w-11 items-center justify-center rounded-full border border-gray-200 bg-white text-gray-600 shadow-sm hover:bg-gray-50 dark:border-zinc-850 dark:bg-zinc-800 dark:text-white transition-all active:scale-95"
               aria-label="Previous testimonial"
+              className="p-3 rounded-full bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 text-gray-700 dark:text-zinc-200 hover:bg-gray-50 dark:hover:bg-zinc-700 transition-colors shadow-sm"
             >
               <ChevronLeft className="h-5 w-5" />
             </button>
-            
-            <div className="flex items-center gap-2">
+
+            {/* Dots */}
+            <div className="flex gap-2">
               {reviews.map((_, idx) => (
                 <button
                   key={idx}
                   onClick={() => setCurrent(idx)}
-                  className={`h-2.5 rounded-full transition-all duration-300 ${
-                    current === idx ? "w-6 bg-blue-600" : "w-2.5 bg-gray-300 dark:bg-zinc-700"
-                  }`}
                   aria-label={`Go to slide ${idx + 1}`}
+                  className={`h-2.5 rounded-full transition-all ${
+                    current === idx ? "w-8 bg-blue-600" : "w-2.5 bg-gray-300 dark:bg-zinc-700"
+                  }`}
                 />
               ))}
             </div>
 
             <button
               onClick={nextSlide}
-              className="flex h-11 w-11 items-center justify-center rounded-full border border-gray-200 bg-white text-gray-600 shadow-sm hover:bg-gray-50 dark:border-zinc-850 dark:bg-zinc-800 dark:text-white transition-all active:scale-95"
               aria-label="Next testimonial"
+              className="p-3 rounded-full bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 text-gray-700 dark:text-zinc-200 hover:bg-gray-50 dark:hover:bg-zinc-700 transition-colors shadow-sm"
             >
               <ChevronRight className="h-5 w-5" />
             </button>
           </div>
-
-        </div>
-
-        {/* Recovery stats checkouts */}
-        <div className="flex flex-wrap items-center justify-center gap-8 mt-16 text-xs font-bold text-gray-400 dark:text-zinc-500 uppercase tracking-wider">
-          <span className="flex items-center gap-1.5">
-            <HeartPulse className="h-4 w-4 text-blue-500" />
-            <span>99.2% Surgical Success Rate</span>
-          </span>
-          <span className="h-1.5 w-1.5 rounded-full bg-gray-300" />
-          <span>Apollo Clinical Benchmarks</span>
-          <span className="h-1.5 w-1.5 rounded-full bg-gray-300" />
-          <span>Patient-centered feedback loops</span>
         </div>
 
       </div>

@@ -17,6 +17,7 @@ COPY . .
 
 # Next.js telemetry
 ENV NEXT_TELEMETRY_DISABLED=1
+ENV DOCKER_BUILD=1
 
 RUN npm run build
 

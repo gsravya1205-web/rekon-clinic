@@ -5,8 +5,19 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 
+export interface FAQItem {
+  q: string;
+  a: string;
+}
+
+export interface FAQData {
+  headline: string;
+  subtext: string;
+  items: FAQItem[];
+}
+
 interface FAQProps {
-  data: any;
+  data: FAQData;
 }
 
 export default function FAQ({ data }: FAQProps) {
@@ -47,7 +58,7 @@ export default function FAQ({ data }: FAQProps) {
             {/* Right Column: Accordion */}
             <div className="lg:col-span-7 border-t border-gray-200 dark:border-zinc-800">
               <div className="flex flex-col">
-                {faqs.map((faq: any, idx: number) => {
+                {faqs.map((faq: FAQItem, idx: number) => {
                   const isOpen = activeIndex === idx;
                   return (
                     <div
@@ -58,29 +69,40 @@ export default function FAQ({ data }: FAQProps) {
                         onClick={() => toggleFAQ(idx)}
                         className="w-full flex items-center justify-between py-3.5 text-left group"
                       >
-                        <span className="text-xs sm:text-[13px] font-semibold text-gray-900 dark:text-zinc-200 group-hover:text-blue-600 transition-colors pr-4">
+                        <span
+                          className={cn(
+                            "text-xs sm:text-[13px] font-bold transition-colors pr-4",
+                            isOpen
+                              ? "text-blue-600 dark:text-blue-400"
+                              : "text-gray-900 dark:text-zinc-100 group-hover:text-blue-600"
+                          )}
+                        >
                           {faq.q}
                         </span>
-                        <ChevronDown
+                        <div
                           className={cn(
-                            "h-4 w-4 text-gray-400 dark:text-zinc-500 transition-transform duration-300 flex-shrink-0",
-                            isOpen && "rotate-180 text-blue-600"
+                            "h-5 w-5 rounded-full flex items-center justify-center transition-transform duration-300 flex-shrink-0",
+                            isOpen
+                              ? "rotate-180 bg-blue-50 dark:bg-blue-900/30 text-blue-600"
+                              : "text-gray-400 group-hover:bg-gray-100 dark:group-hover:bg-zinc-800"
                           )}
-                        />
+                        >
+                          <ChevronDown className="h-3.5 w-3.5" />
+                        </div>
                       </button>
 
-                      <AnimatePresence initial={false}>
+                      <AnimatePresence>
                         {isOpen && (
                           <motion.div
                             initial={{ height: 0, opacity: 0 }}
                             animate={{ height: "auto", opacity: 1 }}
                             exit={{ height: 0, opacity: 0 }}
-                            transition={{ duration: 0.3, ease: "easeInOut" }}
+                            transition={{ duration: 0.2 }}
                             className="overflow-hidden"
                           >
-                            <div className="pb-5 text-[14px] text-gray-500 dark:text-zinc-400 leading-relaxed">
+                            <p className="pb-3.5 text-xs sm:text-[13px] text-gray-600 dark:text-zinc-400 leading-relaxed font-normal">
                               {faq.a}
-                            </div>
+                            </p>
                           </motion.div>
                         )}
                       </AnimatePresence>

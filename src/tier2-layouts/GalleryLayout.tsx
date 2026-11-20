@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Image as ImageIcon, Eye, Layers } from "lucide-react";
+import { Eye } from "lucide-react";
 import Image from "next/image";
 
 export default function Gallery() {
