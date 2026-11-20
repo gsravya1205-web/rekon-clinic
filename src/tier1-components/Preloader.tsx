@@ -48,9 +48,9 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
           <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-teal-500/10 text-teal-400 border border-teal-500/20">
             <Activity className="h-9 w-9 stroke-[2.5]" />
           </div>
-          <div className="text-center">
-            <h1 className="text-2xl font-black tracking-widest text-white">REKON CENTRE</h1>
-            <p className="text-[10px] tracking-widest text-teal-300 font-bold uppercase mt-1">Joint Replacement & Orthopedics</p>
+          <div className="text-center px-4">
+            <h1 className="text-2xl font-black tracking-widest text-white">REKON CLINIC</h1>
+            <p className="text-[10px] tracking-widest text-teal-300 font-bold uppercase mt-1">Centre for Robotic Joint Replacement Surgery &amp; Orthopaedic</p>
           </div>
         </motion.div>
 

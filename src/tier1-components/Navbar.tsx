@@ -85,14 +85,14 @@ export default function Navbar({ onOpenBooking, data }: NavbarProps) {
           ))}
         </nav>
 
-        {/* Center Logo Cutout */}
+        {/* Center Logo Cutout with official new logo */}
         <div className="absolute left-1/2 -translate-x-1/2 top-0 z-20">
           <div className="navbar-cutout px-3 sm:px-6 lg:px-10 pt-1 sm:pt-2 pb-2 sm:pb-4 pointer-events-auto flex justify-center items-center shadow-sm">
             <a href="#home" className="flex items-center group">
               <img
-                src="/logo.svg"
+                src="/logo.png"
                 alt="Rekon Clinic"
-                className="h-7 sm:h-9 md:h-11 lg:h-12 w-auto max-w-[140px] xs:max-w-[160px] sm:max-w-[200px] object-contain hover:scale-[1.02] transition-transform duration-300"
+                className="h-8 sm:h-10 md:h-12 w-auto max-w-[140px] xs:max-w-[170px] sm:max-w-[210px] object-contain hover:scale-[1.02] transition-transform duration-300"
               />
             </a>
           </div>
@@ -209,7 +209,7 @@ export default function Navbar({ onOpenBooking, data }: NavbarProps) {
                   <Clock className="h-4 w-4 text-teal-600 shrink-0 mt-0.5" />
                   <div>
                     <span className="font-bold text-gray-900 block">Consultation Hours:</span>
-                    <span>Mon - Sat: 12:00 PM – 03:00 PM & 06:00 PM – 08:00 PM</span>
+                    <span>Mon - Sat: 05:00 PM – 08:00 PM</span>
                   </div>
                 </div>
                 <div className="flex items-start gap-2 pt-1 border-t border-gray-200/60">

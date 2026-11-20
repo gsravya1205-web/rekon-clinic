@@ -54,7 +54,7 @@ export default function EmergencyFloating({ onOpenBooking }: EmergencyFloatingPr
               transition={{ type: "spring", stiffness: 100 }}
               className={`flex items-center gap-2.5 pl-3 pr-1 py-1 rounded-l-full shadow-lg border-l border-y border-white/10 ${tab.color} text-white transition-all duration-300 group cursor-pointer`}
             >
-              <span className="max-w-0 overflow-hidden whitespace-nowrap text-[10px] font-black uppercase tracking-wider transition-all duration-300 group-hover:max-w-[200px] select-none">
+              <span className="max-w-0 overflow-hidden whitespace-nowrap text-[10px] font-black uppercase tracking-wider transition-all duration-300 group-hover:max-w-[260px] select-none">
                 {tab.label}
               </span>
               

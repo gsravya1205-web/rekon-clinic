@@ -1,13 +1,13 @@
 {
   "layout": {
     "seo": {
-      "title": "Rekon Centre For Joint Replacement Surgery and Orthopedics | Dr. B.V.R.N. Varma | Visakhapatnam",
-      "description": "Rekon Centre for Joint Replacement Surgery and Orthopedics in Visakhapatnam, led by Dr. B.V.R.N. Varma (MBBS, D. Ortho). Consultations for knee and hip replacement, arthritis, and orthopedic care."
+      "title": "Rekon Clinic - Centre for Robotic Joint Replacement Surgery and Orthopaedic | Dr. B.V.R.N. Varma | Visakhapatnam",
+      "description": "Rekon Clinic - Centre for Robotic Joint Replacement Surgery and Orthopaedic in Visakhapatnam, led by Dr. B.V.R.N. Varma (MBBS, D. Ortho). Consultations for robotic knee and hip replacement, arthritis, and orthopedic care."
     },
     "navbar": {
       "logo": {
-        "title": "REKON CENTRE",
-        "subtitle": "Joint Replacement & Orthopedics"
+        "title": "REKON CLINIC",
+        "subtitle": "Centre for Robotic Joint Replacement Surgery and Orthopaedic"
       },
       "links": [
         {
@@ -42,16 +42,15 @@
       }
     },
     "hero": {
-      "headline": "Rekon Centre for Joint Replacement Surgery & Orthopedics",
-      "subtext": "Dedicated orthopedic consultations, knee replacement, and hip replacement care in Visakhapatnam, led by Dr. B.V.R.N. Varma (27 years of experience).",
+      "headline": "Rekon Clinic",
+      "subtext": "Centre for Robotic Joint Replacement Surgery and Orthopaedic. Dedicated orthopedic consultations, robotic knee and hip replacement care in Visakhapatnam, led by Dr. B.V.R.N. Varma (27 years of experience).",
       "cta": "Book Appointment",
       "emergency": "Call: +91 98491 46668"
     },
     "services": {
       "badge": "KEY SERVICES OFFERED",
-      "headline": "Specialized Orthopedic & Joint Replacement Care",
-      "subtext": "Rekon Centre provides focused consultations for primary and revision joint replacement surgeries (knee and hip), arthroscopy, fracture fixation, and comprehensive arthritis care.",
-      "practoLink": "https://www.practo.com/visakhapatnam/doctor/dr-b-v-r-n-varma-1-orthopedist",
+      "headline": "Specialized Robotic Joint Replacement & Orthopaedic Care",
+      "subtext": "Rekon Clinic provides focused consultations for primary and revision robotic joint replacement surgeries (knee and hip), arthroscopy, fracture fixation, and comprehensive arthritis care.",
       "specialties": [
         {
           "title": "Primary Knee & Hip Replacement",
@@ -88,14 +87,13 @@
       ],
       "itemBadge": "Service",
       "ctaHeadline": "Consult Dr. B. V. R. N. Varma for Expert Knee, Hip, and Joint Care.",
-      "ctaButton": "Book an Appointment",
-      "ctaPracto": "View Practo Profile"
+      "ctaButton": "Book an Appointment"
     },
     "doctor": {
       "badge": "MEET THE DOCTOR",
       "headline": "Dr. B. V. R. N. Varma",
       "designation": "Consultant Orthopedic & Joint Replacement Surgeon",
-      "subtext": "Dedicated orthopedic and joint replacement care in Visakhapatnam led by Dr. B. V. R. N. Varma.",
+      "subtext": "Dedicated orthopedic and robotic joint replacement care in Visakhapatnam led by Dr. B. V. R. N. Varma.",
       "qualifications": "MBBS, Diploma in Orthopaedics (D. Ortho)",
       "experience": "27+ Years Clinical Experience",
       "image": "/images/dr_varma.png",
@@ -109,14 +107,12 @@
         "27+ Years of Orthopedic & Joint Replacement Surgical Excellence",
         "Specialized in Primary & Complex Revision Knee and Hip Replacements",
         "Comprehensive Arthritis Management & Arthroscopic Procedures",
-        "Verified Practo Profile & Trusted Specialist in Visakhapatnam"
+        "Leading Orthopedic & Robotic Joint Specialist in Visakhapatnam"
       ],
-      "ctaButton": "Book Appointment",
-      "practoButton": "View Practo Profile",
-      "practoLink": "https://www.practo.com/visakhapatnam/doctor/dr-b-v-r-n-varma-1-orthopedist"
+      "ctaButton": "Book Appointment"
     },
     "whyChooseUs": {
-      "headline": "Why Rekon Centre, Visakhapatnam",
+      "headline": "Why Rekon Clinic, Visakhapatnam",
       "reasons": [
         {
           "title": "Experienced Specialists",
@@ -170,7 +166,7 @@
     "booking": {
       "badge": "Direct Care Access",
       "headline": "Book Your Appointment",
-      "subtext": "Schedule a consultation with Dr. B. V. R. N. Varma at Rekon Centre, Dwarakanagar, Visakhapatnam. Consultation Hours: Mon - Sat 12:00 PM – 03:00 PM & 06:00 PM – 08:00 PM.",
+      "subtext": "Schedule a consultation with Dr. B. V. R. N. Varma at Rekon Clinic, Dwarakanagar, Visakhapatnam. Consultation Hours: Mon - Sat 05:00 PM – 08:00 PM.",
       "form": {
         "nameLabel": "Patient Name",
         "namePlaceholder": "Enter patient full name",
@@ -188,7 +184,7 @@
       "whatsapp": {
         "badge": "Direct Helpline",
         "headline": "Call Clinic Directly",
-        "subtext": "Have questions or need assistance? Call Rekon Centre directly at +91 98491 46668 during consultation hours.",
+        "subtext": "Have questions or need assistance? Call Rekon Clinic directly at +91 98491 46668 during consultation hours.",
         "button": "Call: +91 98491 46668",
         "link": "tel:+919849146668"
       },
@@ -199,13 +195,13 @@
           "Specialized knee and hip replacement consultations.",
           "Patient-focused diagnostic, evaluation, and recovery care."
         ],
-        "footer": "Rekon Centre For Joint Replacement Surgery and Orthopedics"
+        "footer": "Rekon Clinic - Centre for Robotic Joint Replacement Surgery and Orthopaedic"
       }
     },
     "contact": {
       "badge": "Locate & Visit Us",
       "headline": "Clinic Location & Directions",
-      "subtext": "Visit Rekon Centre at Srinagar, Dwarakanagar, Visakhapatnam. Located opposite Gouthami Complex on Ram Talkies 40 Feet Road.",
+      "subtext": "Visit Rekon Clinic at Srinagar, Dwarakanagar, Visakhapatnam. Located opposite Gouthami Complex on Ram Talkies 40 Feet Road.",
       "map": {
         "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.5!2d83.308!3d17.729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDQzJzQ0LjQiTiA4M8KwMTgnMjguOCJF!5e0!3m2!1sen!2sin!4v1716658000000!5m2!1sen!2sin",
         "linkUrl": "https://maps.google.com/?q=Rekon+Centre+For+Joint+Replacement+Surgery+Dwarakanagar+Visakhapatnam",
@@ -213,7 +209,7 @@
       },
       "addressCard": {
         "title": "Clinic Address",
-        "desc": "Rekon Centre is centrally located in Visakhapatnam, easily accessible from all parts of the city.",
+        "desc": "Rekon Clinic is centrally located in Visakhapatnam, easily accessible from all parts of the city.",
         "addressLines": [
           "48-3-65, B.V.K. College Road,",
           "Srinagar, Ram Talkies 40 Feet Road,",
@@ -224,7 +220,7 @@
       },
       "infoCard": {
         "hoursTitle": "Consulting Hours",
-        "hoursDesc": "Mon - Sat: 12:00 PM – 03:00 PM & 06:00 PM – 08:00 PM",
+        "hoursDesc": "Mon - Sat: 05:00 PM – 08:00 PM",
         "hoursEmergency": "Emergency Orthopedic Care: Attended Promptly",
         "phoneTitle": "Direct Helpline Contacts",
         "phone1Text": "Clinic Desk: +91 98491 46668",
@@ -237,8 +233,8 @@
     },
     "footer": {
       "brand": {
-        "title": "Rekon Centre For Joint Replacement Surgery and Orthopedics",
-        "description": "Led by Dr. B.V.R.N. Varma (MBBS, D. Ortho), Rekon Centre in Visakhapatnam is committed to professional orthopedic consultations, joint replacement care, and patient recovery.",
+        "title": "Rekon Clinic - Centre for Robotic Joint Replacement Surgery and Orthopaedic",
+        "description": "Led by Dr. B.V.R.N. Varma (MBBS, D. Ortho), Rekon Clinic in Visakhapatnam is committed to professional robotic joint replacement surgery, orthopedic consultations, and patient recovery.",
         "badge": "Certified Orthopedic Excellence"
       },
       "quickLinks": {
@@ -273,7 +269,7 @@
       "specialties": {
         "title": "Our Specialties",
         "items": [
-          "Orthopedic & Joint Replacement",
+          "Robotic Knee & Hip Replacement",
           "Complex Fracture & Trauma Care",
           "General & Preventive Medicine",
           "Physiotherapy & Rehabilitation",
@@ -295,11 +291,11 @@
       },
       "opdTimings": {
         "title": "OPD CONSULTATION TIMES",
-        "regular": "Mon - Sat: 12:00 PM – 03:00 PM & 06:00 PM – 08:00 PM",
+        "regular": "Mon - Sat: 05:00 PM – 08:00 PM",
         "sunday": "Sunday: By Prior Appointment"
       },
       "legal": {
-        "copyright": "Rekon Centre For Joint Replacement Surgery and Orthopedics. All rights reserved.",
+        "copyright": "Rekon Clinic - Centre for Robotic Joint Replacement Surgery and Orthopaedic. All rights reserved.",
         "links": [
           {
             "name": "Terms of Use",

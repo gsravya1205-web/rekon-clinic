@@ -25,7 +25,7 @@ export default function RootLayout({
       {
         "@type": "MedicalClinic",
         "@id": "https://rekonclinic.com/#clinic",
-        "name": "Rekon Centre for Joint Replacement Surgery and Orthopedics",
+        "name": "Rekon Clinic - Centre for Robotic Joint Replacement Surgery and Orthopaedic",
         "alternateName": "Rekon Clinic",
         "telephone": "+91 98491 46668",
         "address": {
@@ -38,7 +38,8 @@ export default function RootLayout({
         },
         "medicalSpecialty": [
           "Orthopedic",
-          "JointReplacement"
+          "JointReplacement",
+          "RoboticSurgery"
         ]
       },
       {

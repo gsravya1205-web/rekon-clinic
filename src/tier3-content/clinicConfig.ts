@@ -37,10 +37,10 @@ export interface ClinicConfig {
 }
 
 export const clinicConfig: ClinicConfig = {
-  clinicName: "Rekon Centre for Joint Replacement Surgery and Orthopedics",
+  clinicName: "Rekon Clinic - Centre for Robotic Joint Replacement Surgery and Orthopaedic",
   doctorName: "Dr. B. V. R. N. Varma",
   qualifications: "MBBS, Diploma in Orthopaedics (D. Ortho)",
-  designation: "Orthopedic & Joint Replacement Surgeon",
+  designation: "Consultant Orthopedic & Joint Replacement Surgeon",
   doctorPhoto: "/images/dr_varma.png",
   phone: "+919849146668",
   phoneDisplay: "+91 98491 46668",
@@ -49,7 +49,7 @@ export const clinicConfig: ClinicConfig = {
   foundingYear: null,     // Do not invent or estimate
   experienceYears: 27,
   consultationFee: 500,
-  consultationHours: "Mon - Sat: 12:00 PM – 03:00 PM & 06:00 PM – 08:00 PM",
+  consultationHours: "Mon - Sat: 05:00 PM – 08:00 PM",
   languages: ["English", "Telugu", "Hindi"],
   emergencyCare: "Orthopedic emergencies attended promptly",
   practoUrl: "https://www.practo.com/visakhapatnam/doctor/dr-b-v-r-n-varma-1-orthopedist",

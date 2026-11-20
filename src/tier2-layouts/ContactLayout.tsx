@@ -66,7 +66,7 @@ export default function Contact({ data }: ContactProps) {
                   allowFullScreen={true}
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Rekon Centre Google Map"
+                  title="Rekon Clinic Google Map"
                   className="transition-transform duration-700 group-hover:scale-[1.01]"
                 ></iframe>
                 
@@ -116,7 +116,7 @@ export default function Contact({ data }: ContactProps) {
                 </div>
               </div>
 
-              {/* Consulting Hours */}
+              {/* Consulting Hours - Updated to 05:00 PM – 08:00 PM */}
               <div className="border-t border-gray-200 dark:border-zinc-800 pt-3">
                 <div className="flex items-center gap-2 mb-2">
                   <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-teal-50 dark:bg-teal-900/30 text-teal-600 flex-shrink-0">
@@ -127,7 +127,7 @@ export default function Contact({ data }: ContactProps) {
                       Consulting Hours
                     </span>
                     <span className="text-xs sm:text-[13px] font-bold text-[#0B1F3A] dark:text-white leading-tight block">
-                      Mon - Sat: 12:00 PM – 03:00 PM &amp; 06:00 PM – 08:00 PM
+                      Mon - Sat: 05:00 PM – 08:00 PM
                     </span>
                   </div>
                 </div>

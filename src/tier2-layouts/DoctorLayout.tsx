@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Check, ExternalLink, Calendar } from "lucide-react";
+import { Check, Calendar } from "lucide-react";
 
 export interface DoctorData {
   badge?: string;
@@ -133,26 +133,15 @@ export default function Doctor({ onOpenBooking, data }: DoctorProps) {
                 </div>
               )}
 
-              {/* Action Buttons */}
+              {/* Action Buttons (Practo profile button removed as requested) */}
               <div className="flex flex-col xs:flex-row items-stretch xs:items-center gap-2 sm:gap-2.5 pt-1">
                 <button
                   onClick={onOpenBooking}
-                  className="flex-1 xs:flex-initial flex items-center justify-center gap-2 bg-[#0B1F3A] hover:bg-navy-950 text-white font-bold text-xs py-3 px-5 rounded-xl shadow transition-all active:scale-98 min-h-[44px]"
+                  className="flex-1 xs:flex-initial flex items-center justify-center gap-2 bg-[#0B1F3A] hover:bg-navy-950 text-white font-bold text-xs py-3 px-6 rounded-xl shadow transition-all active:scale-98 min-h-[44px]"
                 >
                   <Calendar className="h-3.5 w-3.5 text-teal-300" />
                   <span>{data.ctaButton || "Book Appointment"}</span>
                 </button>
-                {data.practoLink && (
-                  <a
-                    href={data.practoLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-1 xs:flex-initial inline-flex items-center justify-center gap-1.5 border border-gray-300 dark:border-zinc-700 hover:border-blue-500 bg-white dark:bg-zinc-800 text-gray-800 dark:text-white font-bold text-xs py-3 px-4 rounded-xl shadow-sm transition-all hover:text-blue-600 min-h-[44px]"
-                  >
-                    <span>{data.practoButton || "View Practo Profile"}</span>
-                    <ExternalLink className="h-3 w-3" />
-                  </a>
-                )}
               </div>
 
             </motion.div>

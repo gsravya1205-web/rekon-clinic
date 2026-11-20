@@ -51,7 +51,7 @@ export default function Footer({ data }: FooterProps) {
           {/* Hospital Logo & Title */}
           <div className="flex items-center gap-2.5 sm:gap-3 flex-1 min-w-0">
             <img
-              src="/logo.svg"
+              src="/logo.png"
               alt={`${data.brand.title} Logo`}
               className="h-8 sm:h-11 w-auto object-contain shrink-0"
             />
@@ -97,14 +97,14 @@ export default function Footer({ data }: FooterProps) {
               <Clock className="h-3 w-3" />
             </div>
             <span className="font-medium">
-              {data.opdTimings?.regular || "Mon - Sat: 12:00 PM – 03:00 PM & 06:00 PM – 08:00 PM"}
+              {data.opdTimings?.regular || "Mon - Sat: 05:00 PM – 08:00 PM"}
             </span>
           </div>
         </div>
 
         {/* Minimal Bottom Bar */}
         <div className="border-t border-slate-800/40 pt-2.5 flex flex-col sm:flex-row items-center justify-between gap-2 text-[10px] text-slate-500 font-medium text-center sm:text-left">
-          <p>© {currentYear} {data.legal?.copyright || "Rekon Centre For Joint Replacement Surgery and Orthopedics. All Rights Reserved."}</p>
+          <p>© {currentYear} {data.legal?.copyright || "Rekon Clinic - Centre for Robotic Joint Replacement Surgery and Orthopaedic. All rights reserved."}</p>
           <div className="flex items-center gap-3 text-slate-400">
             <a href="#services" className="hover:text-white transition-colors">Specialties</a>
             <span>•</span>
